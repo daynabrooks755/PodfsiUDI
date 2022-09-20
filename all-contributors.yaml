@@ -47,8 +47,6 @@ jobs:
           # Required
           token: ${{ secrets.ALL_CONTRIBUTORS_TOKEN }}
           repos: 'milvus-io/milvus,bootcamp,community,docs,milvus-helm,milvus-sdk-go,milvus-sdk-java,milvus-sdk-node,milvus.io,pymilvus,pymilvus-orm'
-          targetFile: './README_CN.md'
-          # Optional
           isAscend: True
           width: '30px'
           customUserConfig: 'milvus-io/milvus/.contributors'
